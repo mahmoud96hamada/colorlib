@@ -56,20 +56,24 @@ a{
 }
 .menu{
     margin-top: 10px;
-    width: 200px;
+    width: 20%;
     padding: 20px;
+    padding-left: 50px;
     float: left;
-    margin-left: 50px;
+    margin-left: 0px;
+    background-color: white;
 }
 ul{
     display: flex;
     list-style: none;
-    width: 300px;
+    width: 70%;
     float: left;
-    border: 1px solid;
+    background-color: white;
+    height: 84px;
+    margin-top: 10px;
 }
 ul li{
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     margin-top: 1px;
 }
@@ -81,6 +85,12 @@ ul li{
     
     #i{
         display: none;
+    }
+    ul{
+        width: 60%;
+    }
+    .menu{
+        width: 20%;
     }
     
 }

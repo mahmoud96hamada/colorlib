@@ -50,6 +50,7 @@ import { CommonModule } from '@angular/common';
         <a href="http://localhost:4200/home" id="menu2"><li>home</li></a>
         <a href="http://localhost:4200/about" id="menu2"><li>about</li></a>
       </ul>
+    
   </div>
   `,
   styleUrls: ['./hrader.component.css']

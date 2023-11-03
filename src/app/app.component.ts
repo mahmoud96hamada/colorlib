@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <app-hrader></app-hrader>
     <router-outlet></router-outlet>
+    <app-form/>
   `,
   styleUrls: ['./app.component.css']
 })

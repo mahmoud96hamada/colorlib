@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HraderComponent } from './hrader/hrader.component';
 import { BodyComponent } from './body/body.component';
 import { BodyaboutComponent } from './bodyabout/bodyabout.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BodyaboutComponent } from './bodyabout/bodyabout.component';
     AppRoutingModule,
     HraderComponent,
     BodyComponent,
-    BodyaboutComponent
+    BodyaboutComponent,
+    FormComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
