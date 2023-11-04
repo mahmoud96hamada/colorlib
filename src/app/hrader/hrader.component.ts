@@ -29,7 +29,7 @@ import { CommonModule } from '@angular/common';
           smartphone
           </span>
         </a>
-        <a href="">
+        <a href="https://colorlib.com/wp/template/ararat/#pricing">
         <span class="material-symbols-outlined" id="i2">
           shopping_cart
         </span>
