@@ -272,15 +272,16 @@
 @media screen and (width<= 1000px) {
     .click{
         position: absolute;
-        top: 20%;
+        top: 0%;
         left: 50%; 
     }
     #text{
         font-size: small;
         position: absolute;
-        top: 0%;
+        top: -35%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    
     
 }

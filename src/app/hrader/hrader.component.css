@@ -1,33 +1,4 @@
 
-a{
-    color: aliceblue;
-    text-decoration: none;
-    
-}
-.logo{
-    font-size: 70px;
-}
-.ararat{
-    background-color: #222;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 50px;
-    max-height: 60px;
-    margin-left: 40px;
-    padding-top: 45px;
-    padding-bottom: 15px;
-    
-}
-.x{
-    float: right!important;
-    font-size: 70px;
-    
-}
-.head{
-    background-color:#333;
-    width: auto;
-}
 
 
 #h{
@@ -36,24 +7,7 @@ a{
     z-index: 2;
     
 }
-.material-symbols-outlined {
-    color: rgba(255, 255, 255, 0.297);
-    font-size: 4rem;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-.material-symbols-outlined:hover{
-    color: white;
-}
-#icons{
-    float: right!important;
-}
+
 .menu{
     margin-top: 10px;
     width: 20%;
@@ -81,16 +35,21 @@ ul li{
     color: #333;
     text-decoration: none;
 }
-@media screen and (max-width:1000px) {
-    
-    #i{
-        display: none;
-    }
-    ul{
-        width: 60%;
-    }
+@media screen and (max-width:1200px) {
     .menu{
-        width: 20%;
+        margin-top: 10px;
+        width: 22%;
+        padding: 20px;
+        padding-left: 30px;
+        float: left;
+        margin-left: 0px;
+        background-color: white;
     }
+    
+    ul{
+        width: 58%;
+        
+    }
+    
     
 }

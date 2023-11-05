@@ -28,47 +28,50 @@ import { CommonModule } from '@angular/common';
     <li id="carousel__slide2"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <img src="assets/R.jpg" alt="" id="R">
-      <div id="text">
+      <div class="carousel__snapper">
+        <img src="assets/R.jpg" alt="" id="R">
+        <div id="text">
       <h1 style="text-transform: uppercase;">we design your space</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor</p>
     </div>
     <a href="#" class="click">See Our Projects</a>
-      <a href="#carousel__slide1"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide3"
-         class="carousel__next">Go to next slide</a>
+        <a href="#carousel__slide1"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide3"
+           class="carousel__next">Go to next slide</a>
+      </div>
     </li>
     <li id="carousel__slide3"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <img src="assets/R.jpg" alt="" id="R">
-      <div id="text">
+      <div class="carousel__snapper">
+        <img src="assets/R.jpg" alt="" id="R">
+        <div id="text">
       <h1 style="text-transform: uppercase;">we design your space</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor</p>
     </div>
     <a href="#" class="click">See Our Projects</a>
-      <a href="#carousel__slide2"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide4"
-         class="carousel__next">Go to next slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide4"
+           class="carousel__next">Go to next slide</a>
+      </div>
     </li>
     <li id="carousel__slide4"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper"></div>
-      <img src="assets/R.jpg" alt="" id="R">
-      <div id="text">
+      <div class="carousel__snapper">
+        <img src="assets/R.jpg" alt="" id="R">
+        <div id="text">
       <h1 style="text-transform: uppercase;">we design your space</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor</p>
     </div>
     <a href="#" class="click">See Our Projects</a>
-      <a href="#carousel__slide3"
-         class="carousel__prev">Go to previous slide</a>
-      <a href="#carousel__slide1"
-         class="carousel__next">Go to first slide</a>
+        <a href="#carousel__slide3"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide1"
+           class="carousel__next">Go to next slide</a>
+      </div>
     </li>
   </ol>
   <aside class="carousel__navigation">
