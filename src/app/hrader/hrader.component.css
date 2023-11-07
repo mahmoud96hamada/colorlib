@@ -1,6 +1,4 @@
 
-
-
 #h{
     position:fixed;
     width: 100%;
@@ -20,7 +18,7 @@
 ul{
     display: flex;
     list-style: none;
-    width: 70%;
+    width: 72%;
     float: left;
     background-color: white;
     height: 84px;

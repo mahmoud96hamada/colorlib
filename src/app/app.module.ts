@@ -7,10 +7,12 @@ import { HraderComponent } from './hrader/hrader.component';
 import { BodyComponent } from './body/body.component';
 import { BodyaboutComponent } from './bodyabout/bodyabout.component';
 import { FormComponent } from './form/form.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -18,7 +20,9 @@ import { FormComponent } from './form/form.component';
     HraderComponent,
     BodyComponent,
     BodyaboutComponent,
-    FormComponent
+    FormComponent,
+    AboutusComponent
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
